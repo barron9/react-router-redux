@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import About from './About'
 import {createStore} from 'redux'
 import {Provider} from 'react-redux'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
@@ -56,13 +57,7 @@ function Home() {
     );
   }
   
-  function About() {
-    return (
-      <div>
-        <h2>About</h2>
-      </div>
-    );
-  }
+
   
   function Topics({ match }) {
     return (
